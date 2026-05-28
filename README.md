@@ -16,15 +16,23 @@ To install only this skill from a multi-skill repository:
 npx skills add <owner>/unsure-caveman --skill unsure-caveman
 ```
 
-## Skill
+## Habilidad / Skill
 
-`unsure-caveman` makes the agent start every response with:
+`unsure-caveman` hace que el agente comience cada respuesta con (Spanish format):
+
+- `CONFIANZA`
+- `POR QUÉ DUDA`
+- `CORREGIR CEREBRO`
+
+O su equivalente en inglés (English format):
 
 - `CONFIDENCE`
 - `FUZZY WHY`
 - `FIX BRAIN`
 
-Then it answers in compact caveman style while preserving technical exactness.
+Luego responde en un estilo cavernícola compacto y técnico. / Then it answers in a compact and technical caveman style.
+
+Soporta comandos como `/cavernicola`, `/caveman`, `modo cavernícola`, entre otros. / Supports commands like `/cavernicola`, `/caveman`, `modo cavernícola`, and more.
 
 ## Publish Notes
 
